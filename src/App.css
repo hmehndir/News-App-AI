@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.main{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* height: 100vh; */
+    flex-direction: column;
+    font-family: Poppins;
+    padding: 40px;
+}
+@media only screen and (max-width: 1000px) {
+    .grid-main{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+  }
+
+  @media only screen and (min-width: 1000px) {
+    .grid-main{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
+  }
+
+.grid-child{
+    border: 1px solid #e0e0e0; 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.news-image{
+    width: 100%;
+    height: 50%;
+    border-radius: 2%;
+
+}
+
+.news-title{
+    font-size:25px;
+    font-weight: 700;
+}
+
+.news-content{
+    font-size: 16px;
+}
+
+.news-author{
+    font-size: 14px;
+}
+
+.news-date{
+    font-size: 14px;
+}
+
+.authDate{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.select{
+    padding: 20px;
+}
+
+.select-box{
+    margin-left: 20px;
+    padding: 10px;
+    width: 150px;
+    height: 40px;
+    border: 1px solid #e0e0e0; 
+    outline: none;
+}
